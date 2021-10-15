@@ -1,1 +1,5 @@
-# Terraform
+### Terraform
+
+#terraform init 
+#terraform plan
+#terraform apply

@@ -1,5 +1,5 @@
 provider "github" {
-   token = "token has to update" 
+   token = "token has to be update " 
    }
 
 resource "github_repository" "example" {

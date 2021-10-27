@@ -4,4 +4,4 @@
 - terraform plan
 - terraform apply
 - terraform destroy
-    terraform destroy --target github_repository.example
+    - terraform destroy --target github_repository.example

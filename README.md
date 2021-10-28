@@ -1,6 +1,7 @@
 # Terraform
 
-- terraform init  
+- terraform init 
+    -  terraform init -upgrade
 - terraform plan
 - terraform apply
 - terraform refresh

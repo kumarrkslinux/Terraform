@@ -10,6 +10,8 @@ terraform plan -var="instancetype=t2.small" [# command line variable]
 
 ## From a file 
 
+terraform plan -var-file="custom.tfvars" [# file-variable]
+
 
 
 

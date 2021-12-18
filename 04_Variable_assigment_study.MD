@@ -16,15 +16,11 @@ terraform plan -var-file="custom.tfvars" [# file-variable]
 
 variables.tf [In a file mention the variable details]
 
-variable "in_ips" {
-
-    default = "10.10.10.2/32"
-}
-
+variable "instancename" {}
 
 vi terraform.tfvars [In a file mention all the variables]
 
-instancetype = "t2.large"
+instancename = "t2.large"
 
 
 

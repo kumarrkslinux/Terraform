@@ -18,6 +18,8 @@ vi variables.tf [In a file mention the variable details]
 
 variable "instancename" { }
 
+terraform plan [If you run it will ask the value while run]
+
 vi terraform.tfvars [In a file mention all the variables]
 
 instancename = "t2.large"

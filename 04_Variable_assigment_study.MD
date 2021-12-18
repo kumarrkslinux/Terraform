@@ -14,7 +14,7 @@ terraform plan -var-file="custom.tfvars" [# file-variable]
 
 ## Default Variable 
 
-variables.tf [In a file mention the variable details]
+vi variables.tf [In a file mention the variable details]
 
 variable "instancename" { }
 

@@ -14,7 +14,7 @@ terraform plan -var-file="custom.tfvars" [# file-variable]
 
 ## Default Variable 
 
-variables.tf [In file mention the variable detail]
+variables.tf [In a file mention the variable details]
 
 variable "in_ips" {
 

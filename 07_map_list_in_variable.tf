@@ -10,12 +10,12 @@ resource "aws_instance" "new_new" {
     instance_type =  var.lists["ap-south-1a"]
 }
 
-variable "types" {
+variable "lists" {
     type = list
     default = ["m5.large", "m5.xlarge","t2.medium"]
 }
 
-variable "lists" {
+variable "types" {
     type = map
     default = {
         ap-south-1a = "t2.micro"

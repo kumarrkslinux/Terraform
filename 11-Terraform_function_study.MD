@@ -1,8 +1,8 @@
 ## Terraform_function
 
-The Terraform language does not support user-defined functions, and so only the functions built in to the language are available for use. The navigation for this section includes a list of all of the available built-in functions.
+The Terraform language does not support user-defined functions, and so only the functions built in to the language are available for use. A list of all of the available built-in functions listed below.
 
-You can experiment with the behavior of Terraform's built-in functions from the Terraform expression console, by running the terraform console command:
+You can experiment with the behavior of Terraform's built-in functions from the Terraform expression console, by running the [terraform console] command:
 
 > max(5, 12, 9)
 12

@@ -5,7 +5,6 @@ The Terraform language does not support user-defined functions, and so only the 
 You can experiment with the behavior of Terraform's built-in functions from the Terraform expression console, by running the **terraform console** command:
 
 > max(5, 12, 9)
-
 12
 
 # Different Type of Funtions

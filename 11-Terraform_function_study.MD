@@ -7,6 +7,8 @@ You can experiment with the behavior of Terraform's built-in functions from the 
 > max(5, 12, 9)
 12
 
+# Different Type of Funtions
+
 1. Numeric Functions
 
 2. String Functions

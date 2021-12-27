@@ -6,8 +6,8 @@ provider "aws"{
 
 resource "aws_instance" "new_new" {
     ami = "ami-0851b76e8b1bce90b"
-    #instance_type = var.types[0]
-    instance_type =  var.lists["ap-south-1a"]
+    #instance_type = var.lists[0]
+    instance_type =  var.types["ap-south-1a"]
 }
 
 variable "lists" {

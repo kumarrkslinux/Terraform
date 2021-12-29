@@ -1,4 +1,4 @@
-#### Terraform loads all the configration within the directory specified in the alphabet order 
+#### Terraform loads all the configration files within the directory specified in the alphabet order 
 
 
 ### ec2.tf
@@ -40,7 +40,7 @@ provider "aws" {
 }
 
 variable "iam_user" {
-  default = "demouser"
+  default = "newuser"
 }
 
 resource "aws_instance" "myec2" {
@@ -48,7 +48,7 @@ resource "aws_instance" "myec2" {
    instance_type = "t2.micro"
 }
 
-resource "aws_iam_user" "lb" {
+resource "aws_iam_user" "useriam" {
   name = var.iam_user
   path = "/system/"
 }
@@ -57,6 +57,6 @@ resource "aws_iam_user" "lb" {
 ### variables.tf
 ```sh
 variable "iam_user" {
-  default = "demouser"
+  default = "newuser"
 }
 ```

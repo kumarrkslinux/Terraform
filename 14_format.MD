@@ -14,7 +14,7 @@ resource "aws_instance" "new_new" {
 }
 
 
-
+~~~
 ###After fmt
 
 ~~~

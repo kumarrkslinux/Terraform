@@ -17,7 +17,6 @@ resource "aws_instance" "new_new" {
 
 ###After fmt
 ~~~
-
 terraform fmt
 
 > $ terraform fmt

@@ -9,3 +9,4 @@
 - terraform refresh
 - terraform destroy
     - terraform destroy --target github_repository.example
+- terraform fmt

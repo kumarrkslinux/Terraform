@@ -1,3 +1,5 @@
+#### Terraform loads all the configration within the directory specified in the alphabet order 
+
 
 ### ec2.tf
 ```sh

@@ -1,4 +1,4 @@
-#### Terraform loads all the configration files within the directory specified in the alphabet order 
+#### Terraform loads all the configration files within the directory specified in the alphabet order, we can split them into different files on same directory 
 
 
 ### ec2.tf

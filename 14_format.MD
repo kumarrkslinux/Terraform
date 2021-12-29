@@ -13,8 +13,10 @@ resource "aws_instance" "new_new" {
     instance_type = "t2.micro"
 }
 
-###After fmt
 
+
+###After fmt
+~~~
 
 terraform fmt
 

@@ -24,7 +24,7 @@ resource "aws_instance" "newec2" {
 
 ```sh 
 provider "aws" {
-  region     = "us-west-2"
+  region     = "ap-south-1"
   access_key = "YOUR-ACCESS-KEY"
   secret_key = "YOUR-SECRET-KEY"
 }
@@ -34,9 +34,9 @@ provider "aws" {
 
 ```sh
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "YOUR-ACCESS-KEY"
-  secret_key = "YOUR-SECRET-KEY"
+  region     = "ap-south-1"
+  access_key = "Access-key"
+  secret_key = "secret-key"
 }
 
 variable "iam_user" {

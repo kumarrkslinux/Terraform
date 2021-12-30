@@ -8,7 +8,8 @@
 - terraform plan -var="instancetype=t2.small" [# command line variable]
 - terraform plan -var-file="custom.tfvars" [# file-variable]
 - terraform plan -out=ouput 
-- terraform apply
+- terraform apply ouput 
+- terraform apply 
 - terraform -auto-approve apply
 - terraform refresh
 - terraform destroy

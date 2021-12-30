@@ -28,7 +28,7 @@ resource "aws_security_group" "allow_tls" {
   }
 
 }
-
+~~~
 ```sh 
 terraform graph > graph.dot
 yum install graphviz

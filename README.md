@@ -14,3 +14,4 @@
     - terraform destroy --target github_repository.example
 - terraform fmt
 - terraform validate
+- terraform graph > graph.dot

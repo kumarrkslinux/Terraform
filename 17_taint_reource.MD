@@ -16,3 +16,10 @@ resource "aws_instance" "new_vm" {
   instance_type = "t2.micro"
 }
 
+
+$ terraform fmt 
+$ terraform init
+$ terraform validate 
+$ terraform plan -auto-approve
+$ terraform apply -auto-approve
+$ terraform taint aws_instance.new_vm

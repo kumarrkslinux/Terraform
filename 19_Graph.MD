@@ -1,5 +1,5 @@
 
-~~~ 
+```sh
 
 provider "aws" {
   region     = "ap-south-1"
@@ -28,7 +28,7 @@ resource "aws_security_group" "allow_tls" {
   }
 
 }
-~~~ 
+``` 
 
 ## command used 
 terraform graph > graph.dot

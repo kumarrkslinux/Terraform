@@ -25,7 +25,7 @@ $ terraform apply -auto-approve
 $ terraform taint aws_instance.new_vm
 $ terraform apply -auto-approve
 
-```sh 
+```sh
 
 # **From the apply LOG **
 Plan: 1 to add, 0 to change, 1 to destroy.

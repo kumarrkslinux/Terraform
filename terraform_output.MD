@@ -27,13 +27,17 @@ output "Iam_arns" {
 
 [
   "arn:aws:iam::236630118942:user/system/iamuser.0",
+  
   "arn:aws:iam::236630118942:user/system/iamuser.1",
+  
   "arn:aws:iam::236630118942:user/system/iamuser.2",
 ]
 ### Terraform_ouput> terraform output Iam_names
 [
   "iamuser.0",
+  
   "iamuser.1",
+  
   "iamuser.2",
 ]
 

@@ -14,7 +14,6 @@
 - terraform apply 
 - terraform -auto-approve apply
 - terraform refresh
-- 
 - terraform destroy
 - terraform -auto-approve destroy
     - terraform destroy --target github_repository.example

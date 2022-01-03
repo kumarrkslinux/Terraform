@@ -22,8 +22,8 @@ output "Iam_arns" {
 output "Join" {
   value = zipmap(aws_iam_user.new_user[*].name, aws_iam_user.new_user[*].arn)
 }
-
 ~~~ 
+
 
 ### Output 
 /*

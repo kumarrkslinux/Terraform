@@ -1,3 +1,5 @@
+### You can limit your API or all the API will be used while run plan
+
 ~~~ 
 provider "aws" {
   region     = "ap-south-1"
@@ -57,7 +59,7 @@ resource "aws_instance" "new_vm" {
 ```sh
 terraform plan -refresh=false
 ```
-### Setting Refresh along with Target flags
+### Setting Refresh only for targeted resource 
 ```sh
 terraform plan -refresh=false -target=aws_security_group.inbound_rules
 ``` 

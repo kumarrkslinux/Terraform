@@ -14,7 +14,7 @@ resource "aws_instance" "new_vm" {
 
   provisioner "remote-exec" {
     inline = [
-      "sudo amazon-linux-extras enable nginx1.12",
+      "sudo amazon-linux-extras install -y nginx1.12",
       "sudo systemctl start nginx"
     ]
 

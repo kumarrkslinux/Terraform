@@ -1,4 +1,4 @@
-### You can limit your API or all the API will be used while run plan
+### You can limit your API or all the API will be used while run plan/apply
 
 ~~~ 
 provider "aws" {

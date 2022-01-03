@@ -56,7 +56,8 @@ resource "aws_instance" "new_vm" {
 ### stop refreshing while run plan 
 ```sh
 terraform plan -refresh=false
-
+```
 ### Setting Refresh along with Target flags
 ```sh
 terraform plan -refresh=false -target=aws_security_group.inbound_rules
+``` 

@@ -1,5 +1,5 @@
 
-### locals 
+## locals 
 Local values can be helpful to avoid repeating the same values or expressions multiple times in a configuration, 
 but if overused they can also make a configuration hard to read by future maintainers by hiding the actual values used.
 

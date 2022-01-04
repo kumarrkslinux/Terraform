@@ -47,3 +47,13 @@ resource "aws_security_group" "allow_ssh" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+~~~
+## In AWS, different ec2 instances have different user names. Following are the default usernames of common ec2 instances.
+Instance	Username
+Ubuntu	ubuntu
+Redhat Linux	ec2-user
+Amazon Linux	ec2-user
+CentOS	centos
+Debian	admin or root
+

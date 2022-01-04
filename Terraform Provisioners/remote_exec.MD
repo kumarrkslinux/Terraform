@@ -52,8 +52,8 @@ resource "aws_security_group" "allow_ssh" {
 ## In AWS, different ec2 instances have different user names. Following are the default usernames of common ec2 instances.
 ```sh
 Instance	Username
-Ubuntu	    ubuntu
+Ubuntu	        ubuntu
 Redhat Linux	ec2-user
 Amazon Linux	ec2-user
-CentOS	    centos
-Debian	    admin or root
+CentOS	        centos
+Debian	        admin or root

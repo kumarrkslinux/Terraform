@@ -1,27 +1,29 @@
 
 ~~~
 provider "aws" {
-  region     = "ap-south-1"
-  access_key = "key"
-  secret_key = "key"
+  region                  = "ap-south-1"
+  shared_credentials_file = "C:/Terraform/UDEMY/Terraform_provisioners/.aws/credentials"
+  profile                 = "new_terraform"
 
 }
 resource "aws_instance" "new_vm" {
   ami                    = "ami-0851b76e8b1bce90b"
   instance_type          = "t2.micro"
-  key_name               = "Same_name"
+  key_name               = "Terraform"
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
 
   provisioner "remote-exec" {
     inline = [
-      "sudo amazon-linux-extras install -y nginx1.12",
+      #"sudo amazon-linux-extras install -y nginx1.12",
+      "sudo apt install -y nginx",
       "sudo systemctl start nginx"
     ]
 
     connection {
-      type        = "ssh"
-      user        = "ubuntu"
-      private_key = file("./Same_name.pem")
+      type = "ssh"
+      user = "ubuntu"
+      #user        = "ubuntu"
+      private_key = file("./Terraform.pem")
       host        = self.public_ip
     }
   }

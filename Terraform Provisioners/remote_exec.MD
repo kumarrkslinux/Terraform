@@ -20,7 +20,7 @@ resource "aws_instance" "new_vm" {
 
     connection {
       type        = "ssh"
-      user        = "ec2-user"
+      user        = "ubuntu"
       private_key = file("./Same_name.pem")
       host        = self.public_ip
     }

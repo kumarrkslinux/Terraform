@@ -1,3 +1,13 @@
+
+### locals 
+Local values can be helpful to avoid repeating the same values or expressions multiple times in a configuration, 
+but if overused they can also make a configuration hard to read by future maintainers by hiding the actual values used.
+
+Use local values only in moderation, in situations where a single value or result is used in many places and that value is likely to be changed in future. 
+The ability to easily change the value in a central place is the key advantage of local values.
+
+
+```sh
 provider "aws" {
     region = "ap-south-1"
     access_key = "key"
@@ -29,3 +39,4 @@ resource "aws_ebs_volume" "new_volume" {
     size = 8
     tags = local.common_tags
 }
+```

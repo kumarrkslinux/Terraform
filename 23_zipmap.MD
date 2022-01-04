@@ -29,7 +29,9 @@ output "Join" {
 /*
 Join = {
   "iamuser.0" = "arn:aws:iam::236630118942:user/system/iamuser.0"
+  
   "iamuser.1" = "arn:aws:iam::236630118942:user/system/iamuser.1"
+  
   "iamuser.2" = "arn:aws:iam::236630118942:user/system/iamuser.2"
   
   /*

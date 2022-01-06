@@ -94,6 +94,7 @@ aws_instance.new_vm (remote-exec):   fontconfig-config fonts-dejavu-core
 aws_instance.new_vm (remote-exec):   libfontconfig1 libgd3 libjbig0
 
 ~~~ 
+
 # while destroy # remote-exec
 
 aws_instance.new_vm (remote-exec): (Reading database ... 95%
@@ -104,3 +105,5 @@ aws_instance.new_vm: Destruction complete after 2m25s
 aws_security_group.allow_ssh: Destroying... [id=sg-id]
 aws_security_group.allow_ssh: Destruction complete after 0s
 Destroy complete! Resources: 2 destroyed.
+
+~~~ 

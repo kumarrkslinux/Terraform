@@ -96,7 +96,7 @@ aws_instance.new_vm (remote-exec):   libfontconfig1 libgd3 libjbig0
 ~~~ 
 
 # while destroy # remote-exec
-
+~~~ 
 aws_instance.new_vm (remote-exec): (Reading database ... 95%
 aws_instance.new_vm (remote-exec): (Reading database ... 100%
 aws_instance.new_vm (remote-exec): (Reading database ... 64122 files and directories currently installed.)
@@ -106,4 +106,4 @@ aws_security_group.allow_ssh: Destroying... [id=sg-id]
 aws_security_group.allow_ssh: Destruction complete after 0s
 Destroy complete! Resources: 2 destroyed.
 
-~~~ 
+

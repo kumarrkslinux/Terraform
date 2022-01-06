@@ -1,3 +1,4 @@
+~~~
 provider "aws" {
   region                  = "ap-south-1"
   shared_credentials_file = "C:/Terraform/UDEMY/Terraform_provisioners/.aws/credentials"
@@ -24,7 +25,7 @@ resource "aws_instance" "new_vm" {
   vpc_security_group_ids = [aws_security_group.allow_ssh.id]
 
   provisioner "remote-exec" {
-    on_failure = continue
+    on_failure = continue # on_failure = fail(by default)
     inline = [
       #"sudo amazon-linux-extras install -y nginx1.12",
       "sudo apt install -y nginx",
@@ -41,8 +42,11 @@ resource "aws_instance" "new_vm" {
   }
 }
 
+~~~~
   
-# On faliure it create new instance 
+  
+## On faliure it create new instance 
+~~~
 aws_instance.new_vm (remote-exec): 0% [Connecting to security.ubuntu.com (
 aws_instance.new_vm (remote-exec): 
 aws_instance.new_vm (remote-exec): 0% [Connecting to security.ubuntu.com (

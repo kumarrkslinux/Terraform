@@ -67,6 +67,7 @@ resource "aws_instance" "new_vm" {
 
 ```
 # while provision # remote-exec
+~~~
 aws_instance.new_vm (remote-exec): Connecting to remote host via SSH...
 aws_instance.new_vm (remote-exec):   Host: x.x.x.x
 aws_instance.new_vm (remote-exec):   User: ubuntu

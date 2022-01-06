@@ -93,6 +93,7 @@ aws_instance.new_vm (remote-exec): The following additional packages will be ins
 aws_instance.new_vm (remote-exec):   fontconfig-config fonts-dejavu-core
 aws_instance.new_vm (remote-exec):   libfontconfig1 libgd3 libjbig0
 
+~~~ 
 # while destroy # remote-exec
 
 aws_instance.new_vm (remote-exec): (Reading database ... 95%

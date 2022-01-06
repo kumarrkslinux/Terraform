@@ -7,6 +7,7 @@ A tainted resource will be planned for destruction and recreation upon the next 
 If when = "destroy" is specified, the provisioner will run when the resource it is defined within is destroyed. 
 Destroy provisioners are run before the resource is destroyed. If they fail, Terraform will error and rerun the provisioners again on the next terraform apply .
 
+```sh
 provider "aws" {
   region                  = "ap-south-1"
   shared_credentials_file = "C:/Terraform/UDEMY/Terraform_provisioners/.aws/credentials"
@@ -64,6 +65,7 @@ resource "aws_instance" "new_vm" {
   }
 }
 
+```
 # while provision # remote-exec
 aws_instance.new_vm (remote-exec): Connecting to remote host via SSH...
 aws_instance.new_vm (remote-exec):   Host: x.x.x.x

@@ -1,3 +1,6 @@
+https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest (verified modules)
+
+
 ```hcl
 provider "aws" {
   region                  = "ap-south-1"
@@ -18,3 +21,4 @@ module "ec2_instance" {
     Environment = "dev"
   }
 }
+```

@@ -8,7 +8,7 @@
 │
 │ This module is not yet installed. Run "terraform init" to install all modules required by this configuration.
 ╵
-PS C:\Users\krajak111\Desktop\Kumar\Terraform\UDEMY\Modules_Workspace\DRY_principle> terraform init
+PS C:\Terraform\UDEMY\Modules_Workspace\DRY_principle> terraform init
 Initializing modules...
 - new_ec2 in ..\modules\Ec2
 

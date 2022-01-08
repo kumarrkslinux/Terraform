@@ -1,4 +1,5 @@
 ### https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest (verified modules)
+Terraform module which creates an EC2 instance on AWS.
 
 
 ```hcl

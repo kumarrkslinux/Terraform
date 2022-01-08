@@ -1,3 +1,4 @@
+~~~
 /* PS C:\Terraform\UDEMY\Modules_Workspace\DRY_principle> terraform plan
 ╷
 │ Error: Module not installed

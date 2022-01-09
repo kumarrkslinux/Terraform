@@ -1,8 +1,5 @@
 
 
-
-
-
 ### Command used 
 
 ```hcl

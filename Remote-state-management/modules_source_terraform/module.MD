@@ -1,6 +1,6 @@
 ## Modules Sources
 
-1. The module installer supports installation from a number of different source types, as listed below.
+The module installer supports installation from a number of different source types, as listed below.
 
 2. Local paths
 

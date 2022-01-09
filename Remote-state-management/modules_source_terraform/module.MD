@@ -2,20 +2,20 @@
 
 The module installer supports installation from a number of different source types, as listed below.
 
-2. Local paths
+1Local paths
 
-3. Terraform Registry
+2. Terraform Registry
 
-4. GitHub
+3. GitHub
 
-5. Bitbucket
+4. Bitbucket
 
-6. Generic Git, Mercurial repositories
+5. Generic Git, Mercurial repositories
 
-7. HTTP URLs
+6. HTTP URLs
 
-8. S3 buckets
+7. S3 buckets
 
-9. GCS buckets
+8. GCS buckets
 
-10. Modules in Package Sub-directories
+9. Modules in Package Sub-directories

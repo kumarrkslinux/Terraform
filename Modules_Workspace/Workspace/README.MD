@@ -37,6 +37,26 @@ PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform fmt
 PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform init
 PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform validate
 PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform plan
+PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform workspace show       
+default
+
+PS C:\Terraform\UDEMY\Modules_Workspace\Workspace> terraform apply -auto-approve
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+aws_instance.new_vm: Creating...
+aws_instance.new_vm: Still creating... [10s elapsed]
+aws_instance.new_vm: Still creating... [20s elapsed]
+aws_instance.new_vm: Still creating... [30s elapsed]
+aws_instance.new_vm: Creation complete after 30s [id=i-0d5d73485a7f69435]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+instancetype = "t2.nano"
+
 ```
 
 

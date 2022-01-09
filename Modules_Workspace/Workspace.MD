@@ -19,6 +19,7 @@ Created and switched to workspace "Dev"!
 
 You're now on a new, empty workspace. Workspaces isolate their state,
 so if you run "terraform plan" Terraform will not see any existing state
+
 PS C:\Users\krajak111\Desktop\Kumar\Terraform\UDEMY\Modules_Workspace\Workspace> terraform workspace new Prod
 Created and switched to workspace "Prod"!
 You're now on a new, empty workspace. Workspaces isolate their state,

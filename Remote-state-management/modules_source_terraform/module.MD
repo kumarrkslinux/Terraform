@@ -2,7 +2,7 @@
 
 The module installer supports installation from a number of different source types, as listed below.
 
-1Local paths
+1. Local paths
 
 2. Terraform Registry
 

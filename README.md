@@ -18,3 +18,6 @@
 - terraform -auto-approve destroy
     - terraform destroy --target github_repository.example
 - terraform graph > graph.dot
+- terraform workspace list
+- terraform workspace new stage # new Prod
+- terraform workspace select Prod

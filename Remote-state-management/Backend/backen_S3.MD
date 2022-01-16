@@ -1,3 +1,4 @@
+### locking state file will not be there 
 ```hcl
 provider "aws" {
   region                  = "ap-south-1"

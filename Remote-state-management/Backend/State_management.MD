@@ -76,6 +76,6 @@ terraform state pull
 
 #### Remove Items from State file
 ```sh
-terraform state rm aws_instance.myec2 
+terraform state rm aws_instance.newvm 
 ```
 

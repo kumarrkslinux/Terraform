@@ -19,7 +19,7 @@ resource "aws_instance" "terraform_import" {
 
 ### Import excecution 
 
-```sh
+```hcl
 PS C:\Terraform\UDEMY\Remote-state-management\Import_existing_resource> terraform fmt 
 
 PS C:\Terraform\UDEMY\Remote-state-management\Import_existing_resource> terraform init
@@ -45,12 +45,12 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-```sh
+```hcl
 PS C:\Terraform\UDEMY\Remote-state-management\Import_existing_resource> terraform validate
 Success! The configuration is valid.
 ```
 
-```sh
+```hcl
 PS C:\Terraform\UDEMY\Remote-state-management\Import_existing_resource> terraform import aws_instance.terraform_import i-0d0cfd8b8a7cab8b9 
 aws_instance.terraform_import: Importing from ID "i-0d0cfd8b8a7cab8b9"...
   Prepared aws_instance for import
@@ -62,7 +62,7 @@ The resources that were imported are shown above. These resources are now in
 your Terraform state and will henceforth be managed by Terraform.
 ```
 
-```sh
+```hcl
 PS C:\Terraform\UDEMY\Remote-state-management\Import_existing_resource> terraform plan
 aws_instance.terraform_import: Refreshing state... [id=i-0d0cfd8b8a7cab8b9]
 

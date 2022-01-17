@@ -29,18 +29,31 @@ terraform {
 
 
 
-### state commands
+### state Management commands
 ~~~
+
+### List the state files
+```sh
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state list
 aws_iam_user.lb
 aws_instance.S3new
+```
 
+#### Rename Resource within Terraform State
+1. Change the local name of EC2 resource from webapp to newvm. 
+2. Run terraform plan to see the changes. It should destroy and recreate the EC2 instance.
+3. Change the local name of EC2 within the terraform state file with following command:
 
+### move the state files 
+```sh
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state mv aws_instance.S3new aws_instance.newvm     
 Move "aws_instance.S3new" to "aws_instance.newvm"
 Successfully moved 1 object(s).
 Releasing state lock. This may take a few moments...
+```
 
+### Show Attributes of Resource from state file
+```sh
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state show aws_iam_user.lb
 # aws_iam_user.lb:
 resource "aws_iam_user" "lb" {
@@ -52,4 +65,15 @@ resource "aws_iam_user" "lb" {
     tags_all      = {}
     unique_id     = "ID"
 }
-~~~
+
+
+```sh
+#### Pull Current State file
+```
+terraform state pull
+
+```sh
+#### Remove Items from State file
+terraform state rm aws_instance.myec2 
+```
+

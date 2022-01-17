@@ -49,6 +49,6 @@ resource "aws_iam_user" "lb" {
     name          = "loadbalancer"
     path          = "/system/"
     tags_all      = {}
-    unique_id     = "AIDATOGCBCIPOAUCN5OMJ"
+    unique_id     = "ID"
 }
 ~~~

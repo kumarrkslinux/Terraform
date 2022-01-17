@@ -29,6 +29,9 @@ terraform {
 }
 ```
 
+
+
+### state commands 
 ~~~
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state list
 aws_iam_user.lb

@@ -1,5 +1,3 @@
-### State List
-
 ```hcl
 provider "aws" {
   region                  = "ap-south-1"
@@ -31,7 +29,7 @@ terraform {
 
 
 
-### state commands 
+### state commands
 ~~~
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state list
 aws_iam_user.lb

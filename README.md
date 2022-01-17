@@ -3,6 +3,7 @@
 - terraform init 
     -  terraform init -upgrade
     -  terraform init -backend=false
+    -  terraform init -reconfigure
 - terraform validate
 - terraform plan
 - terraform plan -var="instancetype=t2.small" [# command line variable]

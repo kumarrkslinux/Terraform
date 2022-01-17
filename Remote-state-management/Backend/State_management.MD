@@ -70,7 +70,7 @@ resource "aws_iam_user" "lb" {
 
 #### Pull Current State file
 ```sh
-terraform state pull
+terraform state pull            ## very rare case will use push command
 ```
 
 

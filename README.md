@@ -22,3 +22,8 @@
 - terraform workspace list
 - terraform workspace new stage # new Prod
 - terraform workspace select Prod
+- terraform state list
+- terraform state mv aws_instance.S3new aws_instance.newvm 
+- terraform state pull 
+- terraform state rm aws_instance.newvm 
+- terraform state show aws_iam_user.lb

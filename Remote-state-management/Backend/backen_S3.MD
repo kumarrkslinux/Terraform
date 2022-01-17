@@ -1,4 +1,4 @@
-### with out locking state file
+### With out locking state file
 ```hcl
 provider "aws" {
   region                  = "ap-south-1"
@@ -21,7 +21,7 @@ terraform {
 }
 ```
 
-### with Dynamo locking state file 
+### With Dynamo locking state file 
 
 ```hcl
 

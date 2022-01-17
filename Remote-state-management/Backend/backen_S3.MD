@@ -45,5 +45,6 @@ terraform {
     dynamodb_table = "locking-db-s3"
   }
 }
+```
 
 

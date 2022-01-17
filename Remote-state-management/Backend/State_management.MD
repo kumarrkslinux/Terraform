@@ -30,7 +30,6 @@ terraform {
 
 
 ### state Management commands
-~~~
 
 ### List the state files
 ```sh
@@ -66,14 +65,17 @@ resource "aws_iam_user" "lb" {
     unique_id     = "ID"
 }
 
-
-```sh
-#### Pull Current State file
 ```
-terraform state pull
 
+
+#### Pull Current State file
 ```sh
+terraform state pull
+```
+
+
 #### Remove Items from State file
+```sh
 terraform state rm aws_instance.myec2 
 ```
 

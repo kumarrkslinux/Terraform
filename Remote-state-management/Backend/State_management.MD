@@ -43,7 +43,7 @@ aws_instance.S3new
 2. Run terraform plan to see the changes. It should destroy and recreate the EC2 instance.
 3. Change the local name of EC2 within the terraform state file with following command:
 
-### move the state files 
+### Move the state files 
 ```sh
 PS C:\Terraform\UDEMY\Remote-state-management\Backend> terraform state mv aws_instance.S3new aws_instance.newvm     
 Move "aws_instance.S3new" to "aws_instance.newvm"

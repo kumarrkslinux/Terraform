@@ -1,7 +1,7 @@
 #### EIP for one()Default and second(profile02) region
 
 ### providers.tf
-```sh
+```hcl
 provider "aws" {
   region     =  "us-west-1"
 }
@@ -15,7 +15,7 @@ provider "aws" {
 
 
 ### eip.tf
-```sh
+```hcl
 resource "aws_eip" "myeip" {
   vpc = "true"
 }

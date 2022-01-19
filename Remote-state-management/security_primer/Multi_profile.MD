@@ -1,4 +1,4 @@
-#### EIP for one(Default) and second(profile02) region
+#### EIP for one(Default) and second(profile02) region # STS [Security Token Service]
 ~~~
 [default]
 aws_access_key_id={{aws_access_key_id}}

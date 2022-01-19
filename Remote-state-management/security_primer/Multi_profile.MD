@@ -1,4 +1,4 @@
-#### EIP for one()Default and second(profile02) region
+#### EIP for one(Default) and second(profile02) region
 
 ### providers.tf
 ```hcl

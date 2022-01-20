@@ -1,3 +1,17 @@
+### Create policy for stsaccess user and role 
+~~~
+{
+    "Version": "2012-10-17",
+    "Statement": [
+     {
+        "Effect"   : "Allow",
+        "Action"   : "sts:AssumeRole",
+        "Resource" : "arn:aws:sts::xxxxxxxx:assumed-role/stsaccesss/tsaccesss"
+      }
+    ]
+}
+
+~~~
 
 ### AWS command: 
 ~~~

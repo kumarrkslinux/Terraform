@@ -1,5 +1,6 @@
 
 ### AWS command: 
+
 PS C:\Terraform\UDEMY\Project> aws sts assume-role --role-arn arn:aws:iam::xxxxxxxxxxxxxxxxx:role/stsaccesss --role-session-name tsaccesss
 {
     "Credentials": {

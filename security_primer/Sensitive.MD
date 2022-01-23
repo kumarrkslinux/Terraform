@@ -11,7 +11,7 @@ output "db_password" {
 }
 ```
 ~~~
-/* PS C:\Users\krajak111\Desktop\Kumar\Terraform\UDEMY\security_primer\Sensitive> terraform plan 
+/* PS C:\Terraform\UDEMY\security_primer\Sensitive> terraform plan 
 
 Changes to Outputs:
   + db_password = {
@@ -23,7 +23,7 @@ You can apply this plan to save these new output values to the Terraform state, 
 */
 
 /*
-C:\Users\krajak111\Desktop\Kumar\Terraform\UDEMY\security_primer\Sensitive> terraform plan  
+C:\Terraform\UDEMY\security_primer\Sensitive> terraform plan  
 
 Changes to Outputs:
   + db_password = (sensitive value)

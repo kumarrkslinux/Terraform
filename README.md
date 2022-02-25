@@ -29,4 +29,4 @@
 - terraform state show aws_iam_user.lb
 
 $env:TF_LOG=""
-$env:Path += ";C:\Users\krajak111\Desktop\Terrform_new"
+$env:Path += ";C:\Users\kumar\Desktop\Terrform_new"

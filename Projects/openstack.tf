@@ -12,7 +12,7 @@ provider "openstack" {
   cloud = "pune"
 }
 
-resource "openstack_compute_instance_v2" "tenzor" {
+resource "openstack_compute_instance_v2" "old" {
     flavor_id         = "1"
     flavor_name       = "m1.tiny"
     image_id          = "cb45de93-d5f9-4947-90dc-8fc7c6dbb1e7"
@@ -28,7 +28,7 @@ resource "openstack_compute_instance_v2" "tenzor" {
     }
 }
 
-resource "openstack_compute_instance_v2" "falcon" {
+resource "openstack_compute_instance_v2" "new" {
     flavor_id         = "1"
     flavor_name       = "m1.tiny"
     image_id          = "cb45de93-d5f9-4947-90dc-8fc7c6dbb1e7"

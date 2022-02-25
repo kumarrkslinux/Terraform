@@ -28,5 +28,5 @@
 - terraform state rm aws_instance.newvm 
 - terraform state show aws_iam_user.lb
 
-$env:TF_LOG=""
-$env:Path += ";C:\Users\kumar\Desktop\Terrform_new"
+- $env:TF_LOG=""
+- $env:Path += ";C:\Users\kumar\Desktop\Terrform_new"

@@ -27,3 +27,5 @@
 - terraform state pull 
 - terraform state rm aws_instance.newvm 
 - terraform state show aws_iam_user.lb
+
+$env:Path += ";C:\Users\krajak111\Desktop\Terrform_new"
